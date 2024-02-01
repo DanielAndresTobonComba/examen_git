@@ -35,14 +35,14 @@ async function iniciarPrograma(){
     })
 }
 
-fetch("data/data.csv")
-  .then(response => response.text())
-  .then(csvData => {
-   console.log(csvData)
-  })
-  .catch(error => console.error('Error al obtener el archivo CSV:', error));
+// fetch("data/data.csv")
+//   .then(response => response.text())
+//   .then(csvData => {
+//    console.log(csvData)
+//   })
+//   .catch(error => console.error('Error al obtener el archivo CSV:', error));
 
-let lst = [12 , "asdsd"]
+// let lst = [12 , "asdsd"]
 
 añadirOptions()
 iniciarPrograma()
