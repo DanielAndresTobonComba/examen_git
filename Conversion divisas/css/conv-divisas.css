@@ -164,17 +164,17 @@ h1{
     }
     #div-orig{
         grid-column-start: 3;
-        grid-row-start: 3
+        grid-row-start: 5
     }
 
     #destino{
         grid-column-start: 2;
-        grid-row-start: 5;
+        grid-row-start: 3;
         font-size: 15px;
     }
     #cant-dest{
         grid-column-start: 3;
-        grid-row-start: 5;
+        grid-row-start: 3;
     }
     #div-dest{
         grid-column-start: 3;
